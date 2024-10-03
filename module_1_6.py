@@ -5,6 +5,7 @@ b = sum(grades[1]) / len(grades[1])
 c = sum(grades[2]) / len(grades[2])
 d = sum(grades[3]) / len(grades[3])
 v = sum(grades[4]) / len(grades[4])
-print(a)
-ball = {'Johnny':a,'Bilbo':b, 'Steve':c, 'Khendrik':d, 'Aaron':v}
+grades2 = [a, b, c, d, v]
+name = sorted(students)
+ball = dict(zip(name, grades2))
 print(ball)
